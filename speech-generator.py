@@ -3,7 +3,7 @@ from langchain_openai import ChatOpenAI
 import streamlit as st
 from langchain_core.output_parsers import StrOutputParser
 
-#OPENAI_API_KEY=""
+OPENAI_API_KEY=""
 llm=ChatOpenAI(model="gpt-4o-mini",api_key=OPENAI_API_KEY)
 title_prompt= PromptTemplate(
     input_variables=["topic"],
