@@ -1,7 +1,7 @@
-from langchain_core.prompts import PromptTemplate
-from langchain_openai import ChatOpenAI
+from langchain-core.prompts import PromptTemplate
+from langchain-openai import ChatOpenAI
 import streamlit as st
-from langchain_core.output_parsers import StrOutputParser
+from langchain-core.output_parsers import StrOutputParser
 
 OPENAI_API_KEY=""
 llm=ChatOpenAI(model="gpt-4o-mini",api_key=OPENAI_API_KEY)
